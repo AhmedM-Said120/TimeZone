@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>product_details</title>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- google font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- start header -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg  shadow p-3 mb-0 bg-body rounded">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <div class="img-floatleft"><img src="img/timezone.webp" alt=""></div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- ul 1 -->
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="shop.html">shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">about</a>
+                        </li>
+                        <!-- 1 -->
+                        <li class="nav-item main__menu bordred">
+                            <a class="nav-link active" aria-current="page" href="#">Latest</a>
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="shop.html">Product list</a></li>
+                                    <li><a href="product_details.html">Product Details</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- 2 -->
+                        <li class="nav-item main__menu">
+                            <a class="nav-link active" aria-current="page" href="blog.html"> Blog</a>
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="">Blog</a></li>
+                                    <li><a href="">Blog Details</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- 3 -->
+                        <li class="nav-item main__menu">
+                            <a class="nav-link active" aria-current="page" href="#">Pages</a>
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="login.html">Login</a></li>
+                                    <li><a href="#">Cart</a></li>
+                                    <li><a href="#">Element</a></li>
+                                    <li><a href="#">Confirmation</a></li>
+                                    <li><a href="#">Product Checkout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!--  -->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- icons -->
+                    <ul class="navbar-nav ms-auto m-lg-2 item-center">
+                        <li class="nav-item me-4">
+                            <i class="ri-search-line"></i>
+                        </li>
+                        <li class="nav-item me-4 item-center">
+                            <i class="ri-user-line"></i>
+                        </li>
+                        <li class="nav-item me-4 item-center">
+                            <i class="ri-shopping-cart-2-line"></i>
+                        </li>
+                    </ul>
+                    <!-- end icons -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="shopw">
+        <div class="container">
+            <div class="testshop ">
+                <h1>Watch Shop</h1>
+            </div>
+        </div>
+    </section>
+    <section class="move-item">
+        <div class="container-lg">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="img/sec3-1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img/sec3-1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/sec3-1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="contar">
+        <div class="container">
+
+            <div class="texthaed-contar">
+                <h3>Foam filling cotton slow <br>
+                    rebound pillows</h3>
+                <div class="bodytext">
+                    <p>Seamlessly empower fully researched growth strategies and interoperable internal or “organic”
+                        sources. <br> Credibly innovate granular internal or “organic” sources whereas high standards in
+                        web-readiness. <br> Credibly innovate granular internal or organic sources whereas high
+                        standards in
+                        web-readiness. <br> Energistically scale future-proof core competencies vis-a-vis impactful
+                        experiences. Dramatically <br> synthesize integrated schemas. with optimal networks.</p>
+                </div>
+                <div class="contarnum">
+                    <div class="legttt">
+                        <p>Quantity</p>
+                    </div>
+                    <div class="boxconter">
+                        <span><i class="fa-solid fa-minus"></i></span>
+                        <span class="coloerblue"> 01</span>
+                        <span><i class="fa-solid fa-plus"></i></span>
+                    </div>
+                    <span class="floatright">5$</span>
+                </div>
+                <div class="btndown">
+                    <a href="#">ADD TO CART</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="updates">
+        <div class="container">
+            <div class="text-update">
+                <h2>Get promotions & updates!</h2>
+                <p>Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources
+                    <br> credibly innovate granular internal .
+                </p>
+            </div>
+            <div class="inpurt">
+                <form action="#">
+                    <input type="text" placeholder="enter yor mail">
+                    <div class="updaaaa">
+                    <a href="#">Subscribe</a></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 ">
+                    <div class="imgdlogooo"><img src="img/timezone.webp" alt=""></div>
+                    <p class="mt-5">Asorem ipsum adipolor sdit amet,<br> consectetur adipisicing elitcf sed do <br>
+                        eiusmod tem.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <h4>Quick Links</h4>
+                    <div class="linkss">
+                        <ul class="mt-4">
+                            <li> <a href="#">About</a> </li>
+                            <li> <a href="#">Offers & Discounts</a> </li>
+                            <li><a href="#">Get Coupon</a> </li>
+                            <li><a href="#">Contact Us</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 ">
+                    <h4>New Products</h4>
+                    <div class="linkss">
+                        <ul class="mt-4">
+                            <li> <a href="#">Woman Cloth</a> </li>
+                            <li> <a href="#">Fashion Accessories</a> </li>
+                            <li><a href="#">Man Accessories</a> </li>
+                            <li> <a href="#"> Rubber made Toys</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <h4>Support</h4>
+                    <div class="linkss">
+                        <ul class="mt-4 moveli">
+                            <li> <a href="#">Frequently Asked Questions</a> </li>
+                            <li><a href="#">Terms & Conditions</a> </li>
+                            <li><a href="#">Privacy Policy</a> </li>
+                            <li><a href="#">Report a Payment Issue</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="line-foot col-lg-12">
+                        <div class="footer-copy-right ">
+                            <p>
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                                template is made with <i class="fa fa-heart red"></i> by <a href="#"
+                                    class="red">Colorlib</a>
+                            </p>
+                        </div>
+                        <div class="footer-social ">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="#"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
